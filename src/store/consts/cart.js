@@ -1,0 +1,1 @@
+export const SET_ORDER_DEVICE = 'SET_ORDER_DEVICE'
