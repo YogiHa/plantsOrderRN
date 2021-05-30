@@ -14,7 +14,10 @@ export const getCatalog = () => async (dispatch) => {
         type: GET_CATALOG,
         catalog: categories.map((category) => ({
             ...category,
-            plants: category.plants.map((plant) => plants.find((p) => p.id == plant.id))
+            plants: category.plants.flatMap((plant) => {
+                let plantInfo = plants.find((p) => p.id == plant.id)
+                return plantInfo ? [plantInfo] : []
+            })
         }))
     })
 }

@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { BackHandler } from 'react-native'
 import { useFocusEffect } from '@react-navigation/native'
 
-const useBackButton = (listener = () => true) => {
+export default function useBackButton(listener = () => true) {
     useFocusEffect(
         useCallback(() => {
             BackHandler.addEventListener('hardwareBackPress', listener)
@@ -12,5 +12,3 @@ const useBackButton = (listener = () => true) => {
         }, [listener])
     )
 }
-
-export default useBackButton

@@ -8,7 +8,11 @@ export default function Welcome({ navigation }) {
     return (
         <View style={[globalStyles.container, styles.container]}>
             <Text style={styles.title}>Welcome!</Text>
-            <Button text={'continue as guest'} onPress={() => navigation.navigate('Vendor')} />
+            <Button
+                textStyle={globalStyles.fullButtonTextPadding}
+                text={'continue as guest'}
+                onPress={() => navigation.navigate('Vendor')}
+            />
         </View>
     )
 }

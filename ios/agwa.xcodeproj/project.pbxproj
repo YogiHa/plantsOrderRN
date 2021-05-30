@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* agwaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* agwaTests.m */; };
-		0C6F7BAC83CE4C2C81F2E9F6 /* libPods-agwa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D530AEED7EAD49C7F7A1F5E /* libPods-agwa.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -16,10 +15,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* agwaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* agwaTests.m */; };
+		7685BA17330F7A6AC1E4B330 /* libPods-agwa-agwaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EEC96A552F4F93B9D466D7E /* libPods-agwa-agwaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9DCD9AD9F9CE374C84C2BDDF /* libPods-agwa-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F33E1956C899A4ADC9617475 /* libPods-agwa-tvOS.a */; };
-		B5C0E30D2B2EF58F44E64566 /* libPods-agwa-agwaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11656C490B868AE7C26052B2 /* libPods-agwa-agwaTests.a */; };
-		DA33284E12EE33E7434C3F46 /* libPods-agwa-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 286487A445FB42CDE9ED9757 /* libPods-agwa-tvOSTests.a */; };
+		C54BEE210787220563B17E6C /* libPods-agwa-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C67B24C5F3E9E4DFCA6475 /* libPods-agwa-tvOSTests.a */; };
+		E6357F8826E008D08BBF1B95 /* libPods-agwa-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 709C8261737EEAC3999051CE /* libPods-agwa-tvOS.a */; };
+		F3B43F09C851F8D77989EE2D /* libPods-agwa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEE9564CA79B1463B4FF9E9 /* libPods-agwa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* agwaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = agwaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* agwaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = agwaTests.m; sourceTree = "<group>"; };
-		11656C490B868AE7C26052B2 /* libPods-agwa-agwaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-agwaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A06A9137F623C2438E4A0F5 /* Pods-agwa-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-agwa-tvOSTests/Pods-agwa-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A77396E23568283A1812374 /* Pods-agwa-agwaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-agwaTests.release.xcconfig"; path = "Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* agwa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = agwa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = agwa/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = agwa/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = agwa/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = agwa/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = agwa/main.m; sourceTree = "<group>"; };
-		286487A445FB42CDE9ED9757 /* libPods-agwa-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* agwa-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "agwa-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* agwa-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "agwa-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47A21FEAA1219B908BEF7797 /* Pods-agwa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa.release.xcconfig"; path = "Target Support Files/Pods-agwa/Pods-agwa.release.xcconfig"; sourceTree = "<group>"; };
-		5A6FA6A4795E984901AB4900 /* Pods-agwa-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-agwa-tvOSTests/Pods-agwa-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6D530AEED7EAD49C7F7A1F5E /* libPods-agwa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7746D5CDACB9F5CB09AAC6EC /* Pods-agwa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa.debug.xcconfig"; path = "Target Support Files/Pods-agwa/Pods-agwa.debug.xcconfig"; sourceTree = "<group>"; };
+		2EA071F17642108270523CC4 /* Pods-agwa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa.release.xcconfig"; path = "Target Support Files/Pods-agwa/Pods-agwa.release.xcconfig"; sourceTree = "<group>"; };
+		2EEC96A552F4F93B9D466D7E /* libPods-agwa-agwaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-agwaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932C24CED5EC7DFD773F8AF /* Pods-agwa-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-agwa-tvOSTests/Pods-agwa-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		709C8261737EEAC3999051CE /* libPods-agwa-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = agwa/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		87601EE132AF243CAFF82878 /* Pods-agwa-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-agwa-tvOS/Pods-agwa-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		9791B4922F669BE6A4DED32A /* Pods-agwa-agwaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-agwaTests.release.xcconfig"; path = "Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests.release.xcconfig"; sourceTree = "<group>"; };
-		9EB3E8964A7FA10B0DD9BA6B /* Pods-agwa-agwaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-agwaTests.debug.xcconfig"; path = "Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B9AFA64782003F38C17D29BC /* Pods-agwa-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-agwa-tvOSTests/Pods-agwa-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E004E21DEF874042EC0B41B7 /* Pods-agwa-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOS.release.xcconfig"; path = "Target Support Files/Pods-agwa-tvOS/Pods-agwa-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		822BAF31B5BA6266FE94030E /* Pods-agwa-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOS.release.xcconfig"; path = "Target Support Files/Pods-agwa-tvOS/Pods-agwa-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		A5FBCC58935D99D5DF2975E8 /* Pods-agwa-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-agwa-tvOS/Pods-agwa-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C67B24C5F3E9E4DFCA6475 /* libPods-agwa-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C868B94867C9F400A2C6955F /* Pods-agwa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa.debug.xcconfig"; path = "Target Support Files/Pods-agwa/Pods-agwa.debug.xcconfig"; sourceTree = "<group>"; };
+		E4800B0965F139CE5100A584 /* Pods-agwa-agwaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-agwa-agwaTests.debug.xcconfig"; path = "Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F33E1956C899A4ADC9617475 /* libPods-agwa-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEE9564CA79B1463B4FF9E9 /* libPods-agwa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-agwa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C0E30D2B2EF58F44E64566 /* libPods-agwa-agwaTests.a in Frameworks */,
+				7685BA17330F7A6AC1E4B330 /* libPods-agwa-agwaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C6F7BAC83CE4C2C81F2E9F6 /* libPods-agwa.a in Frameworks */,
+				F3B43F09C851F8D77989EE2D /* libPods-agwa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCD9AD9F9CE374C84C2BDDF /* libPods-agwa-tvOS.a in Frameworks */,
+				E6357F8826E008D08BBF1B95 /* libPods-agwa-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA33284E12EE33E7434C3F46 /* libPods-agwa-tvOSTests.a in Frameworks */,
+				C54BEE210787220563B17E6C /* libPods-agwa-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				6D530AEED7EAD49C7F7A1F5E /* libPods-agwa.a */,
-				11656C490B868AE7C26052B2 /* libPods-agwa-agwaTests.a */,
-				F33E1956C899A4ADC9617475 /* libPods-agwa-tvOS.a */,
-				286487A445FB42CDE9ED9757 /* libPods-agwa-tvOSTests.a */,
+				FDEE9564CA79B1463B4FF9E9 /* libPods-agwa.a */,
+				2EEC96A552F4F93B9D466D7E /* libPods-agwa-agwaTests.a */,
+				709C8261737EEAC3999051CE /* libPods-agwa-tvOS.a */,
+				C1C67B24C5F3E9E4DFCA6475 /* libPods-agwa-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* agwaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				C9251D2AD58491B6AB5780A7 /* Pods */,
+				A9DA8D1D6EB1299F65A7A253 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,17 +182,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9251D2AD58491B6AB5780A7 /* Pods */ = {
+		A9DA8D1D6EB1299F65A7A253 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7746D5CDACB9F5CB09AAC6EC /* Pods-agwa.debug.xcconfig */,
-				47A21FEAA1219B908BEF7797 /* Pods-agwa.release.xcconfig */,
-				9EB3E8964A7FA10B0DD9BA6B /* Pods-agwa-agwaTests.debug.xcconfig */,
-				9791B4922F669BE6A4DED32A /* Pods-agwa-agwaTests.release.xcconfig */,
-				87601EE132AF243CAFF82878 /* Pods-agwa-tvOS.debug.xcconfig */,
-				E004E21DEF874042EC0B41B7 /* Pods-agwa-tvOS.release.xcconfig */,
-				B9AFA64782003F38C17D29BC /* Pods-agwa-tvOSTests.debug.xcconfig */,
-				5A6FA6A4795E984901AB4900 /* Pods-agwa-tvOSTests.release.xcconfig */,
+				C868B94867C9F400A2C6955F /* Pods-agwa.debug.xcconfig */,
+				2EA071F17642108270523CC4 /* Pods-agwa.release.xcconfig */,
+				E4800B0965F139CE5100A584 /* Pods-agwa-agwaTests.debug.xcconfig */,
+				0A77396E23568283A1812374 /* Pods-agwa-agwaTests.release.xcconfig */,
+				A5FBCC58935D99D5DF2975E8 /* Pods-agwa-tvOS.debug.xcconfig */,
+				822BAF31B5BA6266FE94030E /* Pods-agwa-tvOS.release.xcconfig */,
+				0A06A9137F623C2438E4A0F5 /* Pods-agwa-tvOSTests.debug.xcconfig */,
+				4932C24CED5EC7DFD773F8AF /* Pods-agwa-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -205,12 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "agwaTests" */;
 			buildPhases = (
-				2724A62B3A91ED3BE80AEE9D /* [CP] Check Pods Manifest.lock */,
+				3D7C201C9AD6E87678E1D842 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				4C631380DBEC53683C36452A /* [CP] Embed Pods Frameworks */,
-				495DEAEE7597E0908474CEA7 /* [CP] Copy Pods Resources */,
+				DD8F385F68DDF00F59DF7E95 /* [CP] Embed Pods Frameworks */,
+				FB8E320DE7528BD849ADED11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,14 +226,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "agwa" */;
 			buildPhases = (
-				025007DC9BB2034544E4F8D6 /* [CP] Check Pods Manifest.lock */,
+				35F92B39CF72B2FD07A36DA3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				819A1B2E5C51E78DBD967F69 /* [CP] Embed Pods Frameworks */,
-				DB087135BF47D77F74A10D2D /* [CP] Copy Pods Resources */,
+				0B469E6691B11F010790D86A /* [CP] Embed Pods Frameworks */,
+				AC75A1791E5B03609DE9ED03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "agwa-tvOS" */;
 			buildPhases = (
-				B328F31535E9EE912457F9A8 /* [CP] Check Pods Manifest.lock */,
+				EEFC59FE9BFB809777958575 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,7 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "agwa-tvOSTests" */;
 			buildPhases = (
-				244AE144D0FFF6538DEB0C13 /* [CP] Check Pods Manifest.lock */,
+				17B4613AD18FCE5C8FC49A1A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -379,29 +379,25 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		025007DC9BB2034544E4F8D6 /* [CP] Check Pods Manifest.lock */ = {
+		0B469E6691B11F010790D86A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-agwa-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		244AE144D0FFF6538DEB0C13 /* [CP] Check Pods Manifest.lock */ = {
+		17B4613AD18FCE5C8FC49A1A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,7 +419,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2724A62B3A91ED3BE80AEE9D /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		35F92B39CF72B2FD07A36DA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-agwa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7C201C9AD6E87678E1D842 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,27 +477,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+		AC75A1791E5B03609DE9ED03 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		495DEAEE7597E0908474CEA7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -474,10 +492,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C631380DBEC53683C36452A /* [CP] Embed Pods Frameworks */ = {
+		DD8F385F68DDF00F59DF7E95 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -495,25 +513,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		819A1B2E5C51E78DBD967F69 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B328F31535E9EE912457F9A8 /* [CP] Check Pods Manifest.lock */ = {
+		EEFC59FE9BFB809777958575 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,13 +535,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB087135BF47D77F74A10D2D /* [CP] Copy Pods Resources */ = {
+		FB8E320DE7528BD849ADED11 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -550,7 +550,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa/Pods-agwa-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-agwa-agwaTests/Pods-agwa-agwaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -646,7 +646,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB3E8964A7FA10B0DD9BA6B /* Pods-agwa-agwaTests.debug.xcconfig */;
+			baseConfigurationReference = E4800B0965F139CE5100A584 /* Pods-agwa-agwaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -669,7 +669,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9791B4922F669BE6A4DED32A /* Pods-agwa-agwaTests.release.xcconfig */;
+			baseConfigurationReference = 0A77396E23568283A1812374 /* Pods-agwa-agwaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -689,7 +689,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7746D5CDACB9F5CB09AAC6EC /* Pods-agwa.debug.xcconfig */;
+			baseConfigurationReference = C868B94867C9F400A2C6955F /* Pods-agwa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -712,7 +712,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47A21FEAA1219B908BEF7797 /* Pods-agwa.release.xcconfig */;
+			baseConfigurationReference = 2EA071F17642108270523CC4 /* Pods-agwa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -733,7 +733,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87601EE132AF243CAFF82878 /* Pods-agwa-tvOS.debug.xcconfig */;
+			baseConfigurationReference = A5FBCC58935D99D5DF2975E8 /* Pods-agwa-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -761,7 +761,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E004E21DEF874042EC0B41B7 /* Pods-agwa-tvOS.release.xcconfig */;
+			baseConfigurationReference = 822BAF31B5BA6266FE94030E /* Pods-agwa-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -789,7 +789,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9AFA64782003F38C17D29BC /* Pods-agwa-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 0A06A9137F623C2438E4A0F5 /* Pods-agwa-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -816,7 +816,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A6FA6A4795E984901AB4900 /* Pods-agwa-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 4932C24CED5EC7DFD773F8AF /* Pods-agwa-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
