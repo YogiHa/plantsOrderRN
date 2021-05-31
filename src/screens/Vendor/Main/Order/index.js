@@ -42,13 +42,9 @@ export default function Order() {
             ) : (
                 <Fragment>
                     {!catalog.length && <Loading />}
+                    <Button containerStyle={styles.backButton} text={'<-'} onPress={() => dispatch(clearCart())} />
                     <View style={styles.step2Header}>
                         <View style={globalStyles.row}>
-                            <Button
-                                containerStyle={styles.backButton}
-                                text={'<-'}
-                                onPress={() => dispatch(clearCart())}
-                            />
                             <Text style={styles.title}>{cartDevice.name}</Text>
                         </View>
                         <Button
@@ -78,8 +74,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginHorizontal: SCREEN_WIDTH * 0.05,
-        alignItems: 'center'
+        alignItems: 'center',
+        marginStart: 52
     },
-    backButton: { height: 22, width: 22 },
+    backButton: { height: 22, width: 22, position: 'absolute', top: 6, left: 3 },
     completeOrderBtn: { height: 22, width: SCREEN_WIDTH / 3 }
 })

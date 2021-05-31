@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import { BASE_URL } from '@env'
 import { colors, SCREEN_WIDTH } from '../../../../../../styles/vars'
@@ -13,6 +13,7 @@ export default function Plant({ item: { imageId, name, id, ...item } }) {
     const dispatch = useDispatch()
     const navigation = useNavigation()
     const NavToVeg = useCallback(() => navigation.navigate('VegInfo', { imageId, name, ...item }), [id])
+    const placeHolderImg = useMemo(() => require('../../../../../../../assets/img/veg-place-holder.png'), [])
 
     return (
         <View style={styles.container}>
@@ -25,12 +26,13 @@ export default function Plant({ item: { imageId, name, id, ...item } }) {
                     height={SCREEN_WIDTH / 3.5}
                     resizeMode={'contain'}
                     style={styles.vegImg}
+                    defaultSource={placeHolderImg}
                     source={
                         imageId
                             ? {
                                   uri: `${BASE_URL}/images/vegetables/${imageId}@3x.jpg`
                               }
-                            : require('../../../../../../../assets/img/veg-place-holder.png')
+                            : placeHolderImg
                     }
                 />
             </TouchableOpacity>

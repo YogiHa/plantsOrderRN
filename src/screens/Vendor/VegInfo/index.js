@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { StyleSheet, View, Text, Image } from 'react-native'
 import globalStyles from '../../../styles/globalStyles'
 import { colors, SCREEN_WIDTH } from '../../../styles/vars'
@@ -9,6 +9,8 @@ export default function VegInfo({
         params: { name, imageId, description, lifeCycle, yield: vegYield, seedToCrop }
     }
 }) {
+    const placeHolderImg = useMemo(() => require('../../../../assets/img/veg-place-holder.png'), [])
+
     return (
         <View style={globalStyles.container}>
             <Text style={styles.title}>{name}</Text>
@@ -17,12 +19,13 @@ export default function VegInfo({
                 height={SCREEN_WIDTH * 0.8}
                 resizeMode={'contain'}
                 style={styles.vegImg}
+                defaultSource={placeHolderImg}
                 source={
                     imageId
                         ? {
                               uri: `${BASE_URL}/images/vegetables/${imageId}@3x.jpg`
                           }
-                        : require('../../../../assets/img/veg-place-holder.png')
+                        : placeHolderImg
                 }
             />
             <Text style={styles.description}>{description}</Text>
